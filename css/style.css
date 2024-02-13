@@ -1,0 +1,99 @@
+body {
+    background: linear-gradient(0deg,#071A8C,#4CAAC1);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .name {
+    margin: 0;
+    color: #fff;
+    font-weight: 700;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .elements {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    max-width: 680px;
+    margin-bottom: 40px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .header img {
+    margin-bottom: 16px;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    display: block;
+    object-fit: contain;
+    object-position: initial;
+    filter: none;
+  }
+
+  .banner {
+    overflow: hidden;
+    transition: box-shadow .25s cubic-bezier(0.08,0.59,0.29,0.99),color .25s cubic-bezier(0.08,0.59,0.29,0.99), border-color .25s cubic-bezier(0.08,0.59,0.29,0.99),transform .25s cubic-bezier(0.08,0.59,0.29,0.99), background-color .25s cubic-bezier(0.08,0.59,0.29,0.99);
+    margin-bottom: 16px;
+    background-color: transparent;
+    border-radius: 24px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .banner img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .banner p {
+    bottom: 10px;
+    left: 24px;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    font-size: 16px;
+    position: absolute;
+    font: inherit;
+  }
+
+  .button {
+    transition: box-shadow .25s cubic-bezier(0.08,0.59,0.29,0.99),color .25s cubic-bezier(0.08,0.59,0.29,0.99), border-color .25s cubic-bezier(0.08,0.59,0.29,0.99),transform .25s cubic-bezier(0.08,0.59,0.29,0.99), background-color .25s cubic-bezier(0.08,0.59,0.29,0.99);
+    margin-bottom: 16px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 30px;
+  }
+
+  .button:hover {
+    background-color: #fff;
+    color: #071A8C;
+  }
+
+  .button a {
+    color: inherit;
+    transition: box-shadow .25s cubic-bezier(0.08,0.59,0.29,0.99),border-color .25s cubic-bezier(0.08,0.59,0.29,0.99), transform .25s cubic-bezier(0.08,0.59,0.29,0.99),background-color .25s cubic-bezier(0.08,0.59,0.29,0.99);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 16px 44px;
+  }
